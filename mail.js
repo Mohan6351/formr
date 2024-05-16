@@ -4,6 +4,6 @@ document.getElementById('contact-form').addEventListener('submit',function(e){
     var message = document.getElementById('textarea').value;
     var subject = "new meassge from"+name;
     var body ="name:"+ name +"\Email" + email +"\nMessage"+message;
-    var mailto_link = 'mailto:jayanth03052002@gmail.com'+'?subject'+subject+'&body=' + encodeURIComponent(body);
+    var mailto_link = 'mailto:mohankumarho2003@gmai.com'+'?subject'+subject+'&body=' + encodeURIComponent(body);
 window.location.href=mailto_link;
 });
